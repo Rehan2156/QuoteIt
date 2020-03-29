@@ -1,0 +1,258 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat',sans-serif;}
+a{
+    text-decoration: none;
+    color:black;
+}
+.site-header{
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+    background: linear-gradient(57deg,#00c6a7,#1e4d92);
+    clip-path: polygon(0% 0%,100% 0%,100% 75%,0% 100%);
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+}
+
+.logo{
+    width:50%;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.menu{
+    width: 50%;
+    height:100px;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a{
+  color: white;
+  font-size: 20px;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section{
+    display: flex;
+}
+
+.leftside{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.leftside img{
+    width:600px;
+    height: 500px;
+}
+
+.rightside{
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+.rightside h1{
+    font-size:50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.rightside p{
+    font-size: 1.1rem;
+    padding: 30px 0;
+}
+
+/* .rightside button{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 20px 35px;
+    background: linear-gradient(57deg,#00c6a7,#1e4d92);
+}
+
+.rightside button:hover{
+    background: linear-gradient(57deg,#1e4d92,#00c6a7);
+} */
+
+.card-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("background.jpg");
+    overflow: hidden;
+  }
+
+  .card-head{
+      text-align: center;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px;
+    grid-template-areas: "image" "text";
+  
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+  .card-image {
+    grid-area: image;
+    background: url("img/study.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  
+  .card-text {
+    grid-area: text;
+    margin: 25px;
+  }
+  
+  .card-text p {
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+  }
+  
+  .card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  
+  /*card2*/
+  .card-image.card2 {
+    background: url("img/workout.jpg");
+    background-size: cover;
+  }
+  
+  /*card3*/
+  .card-image.card3 {
+    background: url("img/time.jpg");
+    background-size: cover;
+  }
+  
+  /* card4 */
+  .card-image.card4 {
+    background: url("img/leisure.jpg");
+    background-size: cover;
+  }
+
+  /* card5 */
+  .card-image.card5 {
+    background: url("img/thoughts.jpg");
+    background-size: cover;
+  }
+
+  /* card6 */
+  .card-image.card6 {
+    background: url("img/humour.jpg");
+    background-size: cover;
+  }
+
+  /* card7 */
+  .card-image.card7 {
+    background: url("img/love.jpg");
+    background-size: cover;
+  }
+
+  /* card8 */
+  .card-image.card8 {
+    background: url("img/friendship.jpg");
+    background-size: cover;
+  }
+
+  /* card9 */
+  .card-image.card9 {
+    background: url("img/professional.jpg");
+    background-size: cover;
+  }
+
+  /* card10 */
+  .card-image.card10 {
+    background: url("img/spiritual.jpg");
+    background-size: cover;
+  }
+
+  /* card11 */
+  .card-image.card11 {
+    background: url("img/travel.jpg");
+    background-size: cover;
+  }
+
+  /* card12 */
+  .card-image.card12 {
+    background: url("img/health.jpg");
+    background-size: cover;
+  }
+
+  .fa {
+    margin-right: 5px;
+    font-weight: bold;
+    float: right;
+  }
+
+  .footer {
+    background: linear-gradient(57deg,#00c6a7,#1e4d92);
+      height: 100px;
+    padding: 30px;
+  }
+  
+  .footer-logo {
+    
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  
+  
