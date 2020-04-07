@@ -9,5 +9,5 @@ I have made the Feedback form it using JavaScript and Google sheets services.
 Any feedback provided here will directly be mailed to me.
 
 My Email : rehanshaikh2156@gmail.com
-Website Link: rehan2156.github.io
+Website Link: https://rehan2156.github.io/QuoteIt/
 Github link: github.com/Rehan2156
